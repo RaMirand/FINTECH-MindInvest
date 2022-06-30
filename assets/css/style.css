@@ -1,0 +1,236 @@
+:root {
+    --fonte: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --spacing: 28px;
+    --half-spacing: calc(var(--spacing) /2);
+    --color-markup: rgb(255, 255, 255);
+    --color-background: #729fc6;
+    --color-dark-background: rgba(0, 0, 0, .7)
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.titulo-1 {
+    margin-top: 60px;
+    font-family: var(--fonte);
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+    padding: var(--half-spacing);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.titulo-2 {
+    margin-top: 10px;
+    font-family: var(--fonte);
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+    padding: var(--half-spacing);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.image {
+    padding: var(--half-spacing);
+    border-radius: 10px;
+}
+
+.rodape {
+    font-family: var(--fonte);
+    background-color: var(--color-dark-background);
+    border-radius: 10px;
+    padding: var(--half-spacing);
+    color: white;
+    margin-top: 15px;
+}
+
+.fundo-inferior {
+    background-color: var(--color-dark-background);
+    border-radius: 10px;
+}
+
+.menu-inferior {
+    font-family: var(--fonte);
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.botao-inferior {
+    justify-content: center;
+    background: var(--color-background);
+    border-color: black;
+    border-radius: 10px;
+    padding-bottom: 35%;
+    margin-top: 5px;
+}
+
+.middle-logo {
+    justify-content: center;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+
+.middle-logo>h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45pt;
+    font-weight: bold;
+    color: white;
+}
+
+.input-username {
+    color: white;
+    margin-top: 15px;
+}
+
+.input-senha {
+    color: white;
+}
+
+.forms {
+    background-color: #6A6A6A;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+section.acessar {
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Não funciona bem com o Bootstrap */
+/* html {
+    font-size: 1px;
+} */
+
+body {
+    background-color: var(--color-background);
+    /* font-size: 11pt; */
+    /* overflow: hidden; */
+}
+
+/* header {
+    margin: var(--spacing);
+} */
+
+/* main,
+footer {
+    margin: var(--half-spacing);
+} */
+
+/* header,
+main,
+footer {
+    display: flex;
+} */
+
+/* main.container>article>div {
+    justify-content: center;
+} */
+
+/* header>div {
+    margin-right: var(--spacing);
+} */
+
+/* header img {
+    width: 150px;
+    float: left;
+} */
+
+/* header div>button {
+    margin-left: var(--half-spacing);
+} */
+
+/* section.categories ul {
+    display: flex;
+} */
+
+/* section.categories li {
+    margin: 0 calc(var(--half-spacing) /2);
+    margin-left: calc(var(--spacing)*2);
+} */
+
+/* article {
+    margin: 0 0 var(--spacing);
+} */
+
+article.tela-login {
+    background-color: var(--color-background);
+}
+
+/* article>div>div:nth-child(1) {
+    margin-left: 150px;
+    border: 1px solid red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: var(--half-spacing);
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+} */
+
+/* article>div>div:nth-child(4) {
+    margin: var(--spacing);
+    position: relative;
+    height: 400px;
+    background-color: var(--color-background);
+    background-image: url("../images/grafico.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+/* article>div>div:nth-child(6) {
+    margin-left: 420px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: var(--half-spacing);
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+} */
+
+/* article>div>div:nth-child(8) {
+    position: relative;
+    height: 50px;
+    background-image: url("../images/grafico2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+/* article h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: var(--half-spacing);
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+} */
+
+/* article h2,
+article h3 {
+    font-size: 11pt;
+} */
+
+/* div h1 {
+    margin-top: var(--spacing);
+    color: white;
+    font-size: 24pt;
+    font-weight: bold;
+} */
+
+/* footer>div>div {
+    background-color: var(--color-dark-background);
+    padding: var(--half-spacing);
+    color: white
+} */
